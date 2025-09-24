@@ -49,7 +49,7 @@ export function CommunitySection() {
                 )
               }
             >
-              Buy MK Token
+             Buy MK Token
             </Button>
             <Button
               size="lg"
