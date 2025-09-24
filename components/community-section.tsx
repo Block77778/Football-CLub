@@ -41,9 +41,19 @@ export function CommunitySection() {
             Get your MK tokens today and become part of the most passionate football community in crypto
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-black hover:bg-white/90 text-lg px-8 py-4">
-             Buy MK Token
-            </Button>
+            <a
+              href="https://raydium.io/swap/?inputMint=sol&outputMint=4kxmPUoHZAvRtCSfwhU97R6gyegGwMNMmSKddQp3KJSE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                variant="secondary"
+                className="bg-white text-black hover:bg-white/90 text-lg px-8 py-4"
+              >
+                Buy MK Token
+              </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
