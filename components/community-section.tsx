@@ -42,6 +42,13 @@ export function CommunitySection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="bg-white text-black hover:bg-white/90 text-lg px-8 py-4">
+              onClick={() =>
+                window.open(
+                  "https://raydium.io/swap/?inputMint=sol&outputMint=4kxmPUoHZAvRtCSfwhU97R6gyegGwMNMmSKddQp3KJSE",
+                  "_blank",
+                )
+              }
+            >
               Buy MK Token
             </Button>
             <Button
@@ -49,7 +56,7 @@ export function CommunitySection() {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 bg-transparent"
             >
-              Join Discord
+              Join X (Twitter)
             </Button>
           </div>
         </div>
